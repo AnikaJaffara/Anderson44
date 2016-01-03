@@ -1,0 +1,70 @@
+///*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//IMPORTS
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import "normalize";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base";
+
+
+
+///*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//MAIN
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+.BackDrop {
+	background-image: url(../images/BackgroundImage.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.Main {
+	@include outer-container(1000px);
+	background-color: transparent;
+}
+
+.Main .side-image {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+.HeroHeader {
+	background-image: url(../images/#.png);
+}
+
+.Logo {
+	@include span-columns(2);
+	@include shift(10);
+}
+
+.Quote {
+	@include span-columns(10);
+	margin-top: 30em;
+}
+
+
+.Talent1 {
+	@include background(url("../images/Talent1.png"));
+    background-size: cover;
+    display: block;
+    min-height: 12em;
+}
+
+.Talent2 {
+	@include background(url("../images/Talent2.png"));
+    background-size: cover;
+    display: block;
+    min-height: 12em;
+}
+
+.Talent3 {
+	@include background(url("../images/Talent3.png"));
+    background-size: cover;
+    display: block;
+    min-height: 12em;
+}
+
+///*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//FOOTER
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+//

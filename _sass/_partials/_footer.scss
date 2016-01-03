@@ -1,0 +1,13 @@
+.Social {
+	font-size: 1.2em;
+	li {
+		@include pad(0 0 0 8em);
+		display: inline-block;
+		list-style-type: none;
+		a {
+			font-size: 3em;
+			color: darken(white, 15%);
+			&:hover {color: grey;}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+///*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//COLORS
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+$blue1: #2196F3;
+$blue2: #64B5F6;
+$blue3: #1976D2;
+
+$grey1: #757575;
+$grey2: #BDBDBD;
+$grey3: #212121;
+
+$king: #BDD321;
+$earl: #474954;
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+BREAKPOINTS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+$mobile: new-breakpoint(max-width 400px 4);
+$phablet: new-breakpoint(max-width 555px 6);
+$tablet: new-breakpoint(max-width 850px 8);
+$notebook: new-breakpoint(max-width 1010px 10);
+
+
+///*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//IMPORTS
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import "_partials/header";
+@import "_partials/footer";
+@import "_partials/sideimage";
+@import "_partials/blocks";	
+
+
+
+
+
+
+
+
+
